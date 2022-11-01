@@ -19,6 +19,8 @@ resource "aws_s3_bucket" "my-teste-bucket-ricaracl" {
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
-    Managedby = "Terraform"
+    ManagedBy = "Terraform"
+    Owner = "Ricardo Larrahona"
+    UpdateAt "2022-11-01"
   }
 }
