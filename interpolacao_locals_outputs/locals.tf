@@ -5,6 +5,6 @@ locals {
     Service     = "Curso Terraform"
     ManagedBy   = "Terraform"
     Environment = var.environment
-    Owner       = "Ricado Larrahona"
+    Owner       = "Cleber Gasparoto"
   }
 }
