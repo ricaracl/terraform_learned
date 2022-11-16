@@ -1,17 +1,17 @@
 terraform {
-  required_version = "0.14.4"
+  required_version = "1.3.3"
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "3.23.0"
+      version = "4.37.0"
     }
   }
 }
 
 provider "aws" {
-  region  = "eu-central-1"
-  profile = "tf014"
+  region  = "us-east-1"
+  profile = ""
 }
 
 data "aws_caller_identity" "current" {}
@@ -26,8 +26,8 @@ resource "aws_s3_bucket" "remote-state" {
   tags = {
     Description = "Stores terraform remote state files"
     ManagedBy   = "Terraform"
-    Owner       = "Cleber Gasparoto"
-    CreatedAt   = "2021-01-24"
+    Owner       = "Ricardo Larrahona"
+    CreatedAt   = "2022-11-16"
   }
 }
 
