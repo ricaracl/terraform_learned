@@ -1,4 +1,4 @@
-bucket  = "tfstate-968339500772"
+bucket  = "tfstate-993786948824"
 key     = "dev/01-usando-remote-state/terraform.tfstate"
-region  = "eu-central-1"
-profile = "tf014"
+region  = "us-east-1"
+
