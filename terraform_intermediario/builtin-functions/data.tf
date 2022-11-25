@@ -2,9 +2,9 @@ data "template_file" "json" {
   template = file("template.json.tpl")
 
   vars = {
-    age    = 33
+    age    = 37
     eye    = "Brown"
-    name   = "Cleber"
+    name   = "Ricardo"
     gender = "Male"
   }
 }

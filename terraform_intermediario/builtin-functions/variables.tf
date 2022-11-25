@@ -3,13 +3,13 @@ variable "env" {}
 variable "aws_region" {
   type        = string
   description = ""
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "instance_ami" {
   type        = string
   description = ""
-  default     = "ami-0233214e13e500f77"
+  default     = "ami-09d3b3274b6c5d4aa"
 
   validation {
     condition     = length(var.instance_ami) > 4 && substr(var.instance_ami, 0, 4) == "ami-"
@@ -36,7 +36,7 @@ variable "instance_type" {
   })
   description = ""
   default = {
-    dev  = "t3.micro"
-    prod = "t3.medium"
+    dev  = "t2.micro"
+    prod = "t2.micro"
   }
 }
