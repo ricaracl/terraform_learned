@@ -30,14 +30,14 @@ variable "instance" {
 
   default = {
     dev = {
-      ami    = "ami-0233214e13e500f77"
-      type   = "t3.micro"
+      ami    = "ami-0b5eea76982371e91"
+      type   = "t2.micro"
       number = 1
     }
     prod = {
       ami    = "ami-0ff8a91507f77f867"
       type   = "t3.medium"
-      number = 3
+      number = 1
     }
   }
 }
