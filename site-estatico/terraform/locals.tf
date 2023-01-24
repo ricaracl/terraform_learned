@@ -7,7 +7,7 @@ locals {
   common_tags = {
     Project   = "Curso AWS com Terraform"
     Service   = "Static Website"
-    CreatedAt = "2020-03-14"
+    CreatedAt = "2023-01-23"
     Module    = "3"
   }
 }

@@ -1,13 +1,13 @@
 variable "aws_region" {
   type        = string
   description = ""
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "aws_profile" {
   type        = string
   description = ""
-  default     = "tf014"
+  default     = ""
 }
 
 variable "domain" {
