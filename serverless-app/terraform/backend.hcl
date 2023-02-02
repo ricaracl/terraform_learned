@@ -1,0 +1,5 @@
+bucket  = "tflock-tfstate-993786948824"
+key     = "04-serverless-app/terraform.tfstate"
+region  = "us-east-1"
+profile = ""
+dynamodb_table = "tflock-tfstate-993786948824"
