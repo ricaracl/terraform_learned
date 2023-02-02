@@ -5,9 +5,9 @@ locals {
 
   common_tags = {
     Project   = "TODO Serverless App"
-    CreatedAt = "2020-03-16"
+    CreatedAt = "2023-02-1"
     ManagedBy = "Terraform"
-    Owner     = "Cleber Gasparoto"
+    Owner     = "Ricardo Larrahona"
     Service   = var.service_name
   }
 }
