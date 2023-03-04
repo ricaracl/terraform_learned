@@ -25,5 +25,5 @@ variable "service_name" {
 variable "service_domain" {
   type        = string
   description = ""
-  default     = "api-todos"
+  default     = "api-todos-rica"
 }
